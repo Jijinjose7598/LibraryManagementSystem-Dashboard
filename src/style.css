@@ -1,0 +1,111 @@
+
+
+.card{
+    height: 100vh;
+    margin-right: 20px;
+    background: #1D2733;
+    color: white;
+    padding: 0;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    background:#E4F7F7;
+   
+}
+
+
+
+.content {
+    flex-grow: 1;
+}
+
+.list-unstyled {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.list-unstyled li {
+    cursor: pointer;
+    padding: 5px 0;
+    transition: color 0.3s;
+    margin-bottom: 20px;
+}
+
+.list-unstyled li:hover {
+    color: blue;
+    /* Add any hover effect you like */
+}
+.name-input{
+margin-bottom: 30px;
+    
+}
+.birth-date{
+margin-bottom: 30px;
+}
+.biography-input{
+margin-bottom: 30px;
+}
+.name{
+margin-right: 50px;
+}
+.birthDate{
+margin-right: 22px;
+}
+.biography{
+margin-right: 22px;
+
+}
+.btn{
+background: green;
+}
+.btn-edit{
+width: 70px;
+height:40px;
+background: yellow;
+outline: none;
+border: none;
+border-radius: 10px;
+margin-right: 10px;
+}
+.btn-delete {
+    width: 70px;
+    height: 40px;
+    background: red;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.form-card{
+     width: 600px;
+     height: 80%;
+     border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    flex: 1;
+    height: 500px;
+    background: #ffffff;
+    color:#191919;
+
+}
+h3{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.table-card{
+width: 90%;
+    height: 70%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    flex: 1;
+    height: 500px;
+    background: #ffffff;
+    color: #191919;
+}
